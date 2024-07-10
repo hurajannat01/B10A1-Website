@@ -84,6 +84,7 @@
     letter-spacing: 0%;
     text-align: center;
     margin-bottom: 18px;
+    margin-top: 3%;
     gap: 20;
 }
 
@@ -197,3 +198,122 @@
 .btn-secondary:hover {
     background-color: gainsboro;
 }
+
+/* video styles */
+.hero-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#0D132133;
+    box-sizing: border-box; 
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 20px;
+    margin: 30px 0px;
+    padding: 32px;
+    border: 1px solid #0D132133;
+
+}
+/* Skills section design */
+#skills{
+    width: 500px; 
+    margin: 100px auto;
+    
+}
+.skills-container{
+    display: flex;
+    gap: 0px;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px;
+}
+.skill{
+    padding: 40px;
+    border-radius: 5px;
+    /* box-shadow: 0px 6px 50px 0 rgba(0, 0, 0, 0.06); */
+    align-items: center;
+    justify-content: flex-start;
+    }
+
+.skill ul li{
+    list-style: none;
+}
+.skill-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 20px;
+}
+.skill-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin-top: 5%;
+
+}
+.learn{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 5%;
+
+    /* text-decoration-line: underline; */
+}
+.first-skill-box{
+    border: 30px solid none;
+    box-sizing: border-box;
+    background: rgba(255, 76, 30, 0.05);
+    width: 300px;
+    height: 300px; 
+    border-radius: 16px;
+}
+.second-skill-box{
+    border: 30px solid none;
+    box-sizing: border-box;
+    background: rgba(0, 76, 232, 0.05);
+    width: 300px;
+    height: 300px;
+    border-radius: 16px;
+}
+.third-skill-box{
+    border: 30px solid none;
+    box-sizing: border-box;
+    background: rgba(255, 223, 0, 0.05);
+    width: 300px;
+    height: 300px;
+    border-radius: 16px;
+
+}
+
+/* language box design */
+.language-box{
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    border-color: #0D132126;
+    gap: 10px;
+}
+.language-header{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
