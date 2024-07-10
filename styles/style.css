@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+/*  font-family: "Azeret Mono", monospace; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* nav-bar styles */
+.title-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 5px solid white;
+}
+
+.name {
+    margin: 0;
+    color: #0D1321;
+    margin: 35px auto 0px 60px;
+}
+
+.btn-first {
+    padding: 15px 25px;
+    color: #0D1321;
+    border-radius: 6px;
+    font-family: Azeret Mono;
+    border: 1px solid white;
+    border-color: white;
+    border: none;
+    margin: 35px 60px 0px auto;
+    opacity: 0.8;
+}
+
+.btn-first:hover {
+    background-color: #0056b3;
+}
+
+/* banner styles */
+#hero {
+    height: 715px;
+    background-image: url("../assets/Hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 10px;
+}
+
+.hero-content {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*  width: 580px; */
+.sub-pic {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto 10px auto;
+    display: block;
+}
+
+.title {
+    color: #0D1321;
+    font-family: Azeret Mono;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.sub-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 18px;
+    gap: 20;
+}
+
+.btn-container {
+    text-align: center;
+}
+
+.btn-primary {
+    padding: 12px 20px;
+    color: white;
+    font-family: Azeret Mono;
+    background: rgb(13, 19, 33);
+    border-radius: 6px;
+    gap: 32;
+}
+
+/* card box  styles */
+#card-box {
+    width: 880px;
+    margin: 100px auto;
+}
+
+#card-box .info {
+    margin: auto;
+}
+
+#card-box .title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#card-box .sub-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.card-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px white;
+    overflow: hidden;
+}
+
+.card .text-box {
+    padding: 20px;
+    flex: 1;
+}
+
+.card .image-box {
+    /* flex: 1; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card .image-box img {
+    width: 100%;
+    max-width: 100px;
+}
+
+.card-title-one {
+    text-align: left;
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card-description {
+    margin-top: 10px;
+    font-family: Azeret Mono;
+    font-size: 14px;
+    color: #666;
+}
+
+.btn-secondary {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    background-color: white;
+    border-radius: 5px;
+    font-family: Azeret Mono;
+}
+
+.btn-secondary:hover {
+    background-color: gainsboro;
+}
