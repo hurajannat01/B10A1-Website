@@ -7,6 +7,18 @@
 }
 
 /* nav-bar styles */
+nav ul li{
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 120px;
+    font-family: Azeret Mono;
+    color: #0D1321;
+}
+
 .title-bar {
     display: flex;
     justify-content: space-between;
@@ -103,7 +115,7 @@
 
 /* card box  styles */
 #card-box {
-    width: 880px;
+    width: 1000px;
     margin: 100px auto;
 }
 
@@ -186,13 +198,13 @@
 }
 
 .btn-secondary {
-    margin-top: 20px;
+    margin-right: 120px;
     padding: 10px 20px;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
     background-color: white;
-    border-radius: 5px;
     font-family: Azeret Mono;
+    margin-top: 20px;
 }
 
 .btn-secondary:hover {
@@ -213,107 +225,69 @@
     border: 1px solid #0D132133;
 
 }
-/* Skills section design */
-#skills{
-    width: 500px; 
-    margin: 100px auto;
-    
+#hero-banner{
+    background-image:url("../assets/handshake.jpg"); 
+    padding: 55px 40px 55px 40px;
+    border-radius: 8px;
+
 }
-.skills-container{
+#hero-banner .title{
     display: flex;
-    gap: 0px;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+}
+#hero-banner .sub-title{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 10px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin: 16px 0px;
+}
+.text-field{
+    display: flex;
+    flex-direction: row;  
+    width: auto;
+}
+
+/* footer styles */
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    justify-content: flex-start;
     padding: 0px;
+    margin: 32px 0px;
 }
-.skill{
-    padding: 40px;
-    border-radius: 5px;
-    /* box-shadow: 0px 6px 50px 0 rgba(0, 0, 0, 0.06); */
-    align-items: center;
-    justify-content: flex-start;
-    }
-
-.skill ul li{
-    list-style: none;
-}
-.skill-title{
+.footer-content p {
+    margin-left: 100px;
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 800;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
-    margin-top: 20px;
+   font-family: Azeret Mono;
+   font-size: 14px;
+   font-weight: 600;
+   line-height: 16px;
+   letter-spacing: 0%;
+   text-align: center;
 }
-.skill-description{
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 10px;
-    font-weight: 400;
-    line-height: 16px;
-    letter-spacing: 0%;
-    text-align: left;
-    opacity: 0.7;
-    margin-top: 5%;
-
-}
-.learn{
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 10px;
-    font-weight: 700;
-    line-height: 14px;
-    letter-spacing: 0%;
-    text-align: left;
-    margin-top: 5%;
-
-    /* text-decoration-line: underline; */
-}
-.first-skill-box{
-    border: 30px solid none;
-    box-sizing: border-box;
-    background: rgba(255, 76, 30, 0.05);
-    width: 300px;
-    height: 300px; 
-    border-radius: 16px;
-}
-.second-skill-box{
-    border: 30px solid none;
-    box-sizing: border-box;
-    background: rgba(0, 76, 232, 0.05);
-    width: 300px;
-    height: 300px;
-    border-radius: 16px;
-}
-.third-skill-box{
-    border: 30px solid none;
-    box-sizing: border-box;
-    background: rgba(255, 223, 0, 0.05);
-    width: 300px;
-    height: 300px;
-    border-radius: 16px;
-
+.social-icons {
+    margin-right: 100px;
 }
 
-/* language box design */
-.language-box{
-    display: flex;
-    box-sizing: border-box;
-    border: 1px solid rgba(13, 19, 33, 0.15);
-    border-radius: 10px;
-    background: rgb(255, 255, 255);
-    border-color: #0D132126;
-    gap: 10px;
-}
-.language-header{
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 14px;
-    font-weight: 800;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
+.social-icons a {
+    margin: 0 5px;
+    text-decoration: none;
 }
 
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
